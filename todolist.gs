@@ -83,11 +83,6 @@ function getOrCreateTaskSheet() {
 // Example Usage
 function exampleUsage() {
   addTask('Buy groceries', '2024-12-25');
-  addTask('Complete project report', '2024-12-30');
-  viewTasks();
-  markComplete(2);
-  viewTasks();
-  deleteTask(2);
   viewTasks();
   clearAllTasks();
 }
